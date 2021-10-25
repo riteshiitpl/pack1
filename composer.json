@@ -1,0 +1,26 @@
+{
+    "name": "invoidea/simple-contact",
+    "description": "test package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ritesh kumar",
+            "email": "ritesh.iitpl@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Invoidea\\SimpleContact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Invoidea\\SimpleContact\\SimpleContactServiceProvider"
+            ]
+        }
+    }
+}
