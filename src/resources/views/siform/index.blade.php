@@ -16,7 +16,6 @@
 
 	<form action="{{ route('form-store') }}" method="post">
 		@csrf
-
 		<input type="text" name="name" placeholder="Enter user name" value="" >
 		<input type="text" name="email" placeholder="Enter user email" value="" >
 		<input type="text" name="age" placeholder="Enter user age" value="" >
