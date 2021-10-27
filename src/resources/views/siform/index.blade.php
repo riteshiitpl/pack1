@@ -5,7 +5,7 @@
 	<title></title>
 </head>
 <body>
-	<h1>Good Work Ritesh!</h1>
+	<h1>Good Work Ritesh Kumar!</h1>
 	{{ Session::get('success') }}
 	@if ($message = Session::get('success'))
 	<div class="alert alert-info alert-block">
